@@ -1,0 +1,146 @@
+@media screen and (max-width: 600px){
+
+	#wrapper{
+		width: 100%;
+		margin: 0;
+		padding: 0
+	}
+
+	.icon-menu{
+		outline: none;
+		border: 1px solid white !important;
+		color: white !important
+	}
+
+	.icon-menu:focus{
+		outline: none;
+	}
+
+	.icon-menu span{
+		color: white !important;
+	}
+
+	.site-header{
+		padding: 10px 20px 0 0;
+		background-image: url(../img/banner/header-img.jpg);
+		height: 100%;
+		padding-bottom: 50px;
+		overflow: hidden;
+	}
+
+	.menu-main{
+		height: 100%;
+	}
+
+	.menu-responsive{
+		background: #152636 !important;		
+		display: block;
+		position: relative;
+		z-index: 2;
+		border-radius: 10px;
+		margin-top: 20px;
+	}
+	.navbar-main{
+		text-align: center;
+	}
+
+	.nav-link{
+		font-size: 20px;
+		margin: 5px 0;
+		padding: 
+	}
+	.titulo{
+		text-align: center;
+		position: relative;
+		border: 2px solid white;
+		border-radius: 10px;
+		padding: 30px 0 !important;
+	}
+
+	.titulo .slider-desc{
+		font-size: 14px;
+	}
+
+	section{
+		padding: 80px 0 30px;
+	}
+
+	.space{
+		margin-top: 0px;
+	}
+
+	.navbar-brand{
+		width: 30%;
+	}
+
+	.title-blanco{
+		font-size: 18px;
+	}
+
+	.title{
+		font-size: 18px;
+	}
+
+	.text-somos{
+		padding-right: 0px;
+	}
+
+
+
+	.menu-slide img{
+		width: 100%;
+	}
+
+	.main-title{
+		margin: 30px 0;
+	}
+
+	.texto-profe{
+		padding: 10px 20px;
+	}
+
+	.imagen .card-img{
+		width: 50%;
+	}
+
+	.certi p {
+		padding: 10px 20px;
+	}
+
+	.certi-boton{
+		width: 80%;
+		padding: 20px;
+	}
+
+	.certi-boton a{
+		font-size: 20px;
+	}
+
+	.padding{
+		padding: 20px;
+	}
+
+	.texto-taller{
+		font-size: 18px;
+	}
+
+	.btn-check{
+		font-size: 20px;
+		width: 80%;
+		padding: 10px;
+	}
+
+	.logo-imagen{
+		text-align: center;
+	}
+
+	.suscripcion{
+		margin: 20px 0;
+	}
+
+	.footer-list{
+		text-align: center;
+		margin-top: 20px;
+	}
+
+} 

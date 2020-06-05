@@ -1,0 +1,470 @@
+#wrapper{
+  margin: 0 auto;
+  font-family: 'Lato', sans-serif;
+}
+
+section{
+  padding: 80px 0 50px;
+}
+
+.padding{
+  padding: 0 200px
+}
+
+.space{
+  margin-top: 75px;
+}
+
+/* CABECERA */
+
+.menu{
+  width: 100%;
+  z-index: 2;
+}
+
+.menu-slide{
+  background: #152636;
+  position: fixed;
+  top: 0;
+  display: block;
+  z-index: 2;
+  height: 100px;
+  width: 100%;
+  transition: all .5s ease-in-out;
+}
+
+.menu-main{
+  height: 100px;
+}
+
+.icon-menu{
+  outline: none;
+  border: 1px solid white !important;
+  color: white !important
+}
+
+.icon-menu:focus{
+  outline: none;
+}
+
+.site-header{
+  background-image: url(../img/banner/banner01.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+  position: relative;
+}
+
+.titulo{
+  position: absolute;
+  top: 40%;
+}
+
+.nav-link{
+  color: white;
+}
+
+.nav-link:hover{
+  color: rgb(80,175,246);
+  cursor: pointer;
+}
+
+.navbar-brand:hover{
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.navbar-brand img{
+  width: 150px;
+}
+
+/* MAIN */
+
+.main-title-blanco{
+  text-align: center;
+  margin: 30px 0;
+}
+
+.main-title{
+  text-align: center;
+  margin: 30px 0 60px;
+}
+
+.title{
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #2C2C2C;
+  opacity: 0.4;
+  margin: 0;
+  font-family: 'Open sans';
+}
+
+.linea{
+  width: 100px;
+  height: 3px;
+  margin: 8px auto;
+  display: block;
+  border-radius: 50px;
+  background: #2C2C2C;
+  opacity: 0.4;
+}
+
+.title-blanco{
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: white;
+  margin: 0;
+  font-family: 'Open sans';
+}
+
+.linea-blanco{
+  width: 100px;
+  height: 3px;
+  margin: 8px auto;
+  display: block;
+  border-radius: 50px;
+  background: white;
+}
+
+.icono-bienvenida{
+  display: block;
+  width: 5%;
+  margin: 20px auto 10px;
+}
+
+.texto-bienvenida{
+  padding: 10px 100px;
+  font-size: 30px;
+  margin: 0;
+  text-align: center;
+  color: #424242;
+}
+
+
+/* QUIENES SOMOS */
+
+.somos{
+  height: 100%;
+}
+
+.text-somos{
+  font-size: 18px;
+  text-align: justify;
+  padding-right: 30px;
+  color: #3D3D3D;
+
+}
+
+.somos img{
+  width: 100%;
+  border-radius: 10px
+  padding-left: 60px;
+}
+
+
+/* OFERTA */
+
+#ofrecemos{
+  background: #FaFafa;
+}
+
+.oferta{
+  margin-bottom: 30px;
+}
+
+.card{
+  height: 100%;
+  color: #303030;
+}
+
+.icon{
+  width: 200px;
+  height: 100px;
+  display: inline-block;
+  margin: 10px 0;
+  font-size: 60px;
+  color: #303030;
+}
+
+.cuadro:hover{
+  background: rgb(80,175,246);
+  color: white;
+  transition: 0.3s;
+
+}
+
+.cuadro:hover .icon{
+  color: white;
+  transition: 0.3s;
+}
+
+
+/* EQUIPO */
+.texto-profe{
+  padding: 10px 50px 30px ;
+}
+
+.especializado{
+  padding: 0;
+  text-align: center;  
+  overflow: hidden;
+}
+
+.profe{
+  margin-bottom: 30px;
+}
+
+.position{
+  font-size: 14px;
+  color: rgb(50,111,194);
+  display: block;
+  height: 40px;
+}
+
+.card-text{
+  margin: 20px 0;
+  font-size: 16px;
+  letter-spacing: 0.2px;
+  text-align: justify;
+}
+
+.imagen{
+  overflow: hidden;
+  width: 50%;
+}
+
+.imagen img{
+  width: 30%;
+  margin: 20px auto;
+  border-radius: 100%;
+  display: block;
+  transition:all .5s ease-in-out;
+}
+
+.imagen img:hover{
+  transform: scale(1.1);
+
+}
+
+/* CERTIFICACIONES */
+#certificaciones{
+  background-image: url(../img/banner/banner-certi.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.espaciado{
+  margin-top: 100px;
+}
+
+.certi p{
+  margin-bottom: 40px;
+  color: white;
+  padding: 10px 100px 10px;
+}
+
+.certi-boton{
+  display: block;
+  margin: 0 auto 20px;
+  width: 30%;
+  padding: 5px;
+  background: rgb(50,111,194);
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  color: white
+}
+
+.certi-boton a{
+color: white;
+text-decoration: none;
+}
+
+.certi-boton:hover{
+  background: rgb(80,175,246);
+  transition: all 0.2s ease-in-out;
+}
+
+.certi-boton:hover a{
+  color: white;
+  text-decoration: none;
+  
+}
+
+  /* Taller */
+
+.texto-taller{
+  font-size: 14px;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.icon-taller{
+  display: inline-block;
+  margin: 10px 0;
+  font-size: 20px;
+  color: #303030;
+  color: white;
+}
+
+.taller-card {
+  margin-top: 30px;
+}
+
+.taller1{
+  background: #9BCFF7 !important;
+  border: none !important;
+  color: white;
+}
+
+.taller2{
+  background: #51AEF5  !important;
+  border: none !important;
+  color: white;
+}
+
+.taller3{
+  background: #489CDB !important;
+  border: none !important;
+  color: white;
+
+}
+
+.taller4{
+  background: #3C80B5 !important;
+  border: none !important;
+  color: white;
+}
+
+.taller5{
+  background: #275375 !important;
+  border: none !important;
+  color: white;
+}
+
+.taller6{
+  background: #122636 !important;
+  border: none !important;
+  color: white;
+}
+
+/* CONTACTO */
+
+.btn-check{
+  background: rgb(50,111,194);
+  color: white;
+  width: 20%;
+  outline: none;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+}
+
+.btn-check:hover{
+  background: rgb(80,175,246);
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+
+/* FOOTER */
+footer{
+  padding: 30px 0;
+  align-self: center;
+  align-content: center;
+  background: #152636;
+}
+
+.logo-imagen, .footer-list, .suscripcion{
+  align-self: center;
+}
+
+.logo-imagen img{
+  width: 50%;
+}
+
+.logo-imagen img:hover{
+  opacity: 0.5;
+}
+
+.suscripcion{
+  text-align: center;
+  width: 100%;
+}
+.suscripcion p{
+  color: white;
+  font-size: 18px;
+}
+
+.list-suscribe{
+  display: inline-flex;
+}
+
+.list-suscribe input{
+  width: 200px;
+  border-radius: 20px 0 0 20px;
+  outline: none;
+  border: 0;
+  padding: 0 10px;
+  height: 30px;
+}
+
+.list-suscribe button{
+  width: 100px;
+  height: 30px;
+  border-radius: 0 20px 20px 0;
+  outline: none;
+  border: 0;
+  padding: 0 10px;
+  background: rgb(50,111,194);
+  color: white;
+}
+
+.list-suscribe button:hover{
+  background: rgb(80,175,246);
+  color: white;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+}
+
+.footer-list ul{
+  padding: 0;
+  margin: 0;
+}
+
+.footer-list{
+  text-align: right;
+}
+
+.footer-list li{
+  margin: 5px 0;
+  list-style: none;
+}
+
+.footer-list a{
+  color: white;
+  text-decoration: none;
+}
+
+.footer-list a:hover{
+  color: rgb(80,175,246);
+  text-decoration: none;
+  cursor: ;
+}
+
+.copyright{
+  margin: 50px 0 0 0;
+  font-size: 10px;
+  color: white;
+}
+
+
+
