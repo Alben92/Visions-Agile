@@ -4,7 +4,7 @@
 }
 
 section{
-  padding: 80px 0 50px;
+  padding: 40px 0;
 }
 
 .padding{
@@ -12,7 +12,7 @@ section{
 }
 
 .space{
-  margin-top: 75px;
+  margin-top: 20px;
 }
 
 /* CABECERA */
@@ -68,11 +68,13 @@ section{
 .nav-link:hover{
   color: rgb(80,175,246);
   cursor: pointer;
+  transition: all 0.2s ease-in-out;
 }
 
 .navbar-brand:hover{
   opacity: 0.8;
   cursor: pointer;
+  transition: all 0.2s ease-in-out;
 }
 
 .navbar-brand img{
@@ -92,12 +94,13 @@ section{
 }
 
 .title{
-  font-size: 14px;
+  font-size: 24px;
   text-transform: uppercase;
-  font-weight: 800;
+  font-weight: 200;
   color: #2C2C2C;
   opacity: 0.4;
   margin: 0;
+  letter-spacing: 2px;
   font-family: 'Open sans';
 }
 
@@ -112,11 +115,12 @@ section{
 }
 
 .title-blanco{
-  font-size: 14px;
+  font-size: 24px;
   text-transform: uppercase;
-  font-weight: 800;
-  color: white;
+  font-weight: 200;
+  color: #ffffff;
   margin: 0;
+  letter-spacing: 2px;
   font-family: 'Open sans';
 }
 
@@ -160,8 +164,7 @@ section{
 
 .somos img{
   width: 100%;
-  border-radius: 10px
-  padding-left: 60px;
+  border-radius: 10px;
 }
 
 
@@ -180,6 +183,11 @@ section{
   color: #303030;
 }
 
+.texto-oferta{
+  font-size: 18px;
+  margin-top: 20px;
+}
+
 .icon{
   width: 200px;
   height: 100px;
@@ -192,13 +200,13 @@ section{
 .cuadro:hover{
   background: rgb(80,175,246);
   color: white;
-  transition: 0.3s;
+  transition: all 0.2s ease-in-out;
 
 }
 
 .cuadro:hover .icon{
   color: white;
-  transition: 0.3s;
+  transition: all 0.2s ease-in-out;
 }
 
 
@@ -226,7 +234,7 @@ section{
 
 .card-text{
   margin: 20px 0;
-  font-size: 16px;
+  font-size: 18px;
   letter-spacing: 0.2px;
   text-align: justify;
 }
@@ -241,12 +249,12 @@ section{
   margin: 20px auto;
   border-radius: 100%;
   display: block;
-  transition:all .5s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .imagen img:hover{
   transform: scale(1.1);
-
+  transition: all 0.2s ease-in-out;
 }
 
 /* CERTIFICACIONES */
@@ -266,23 +274,25 @@ section{
   margin-bottom: 40px;
   color: white;
   padding: 10px 100px 10px;
+  font-size: 18px;
 }
 
 .certi-boton{
   display: block;
   margin: 0 auto 20px;
-  width: 30%;
+  width: 50%;
   padding: 5px;
   background: rgb(50,111,194);
   border: none;
   outline: none;
   border-radius: 20px;
-  color: white
+  color: #ffffff
 }
 
 .certi-boton a{
 color: white;
 text-decoration: none;
+font-size: 18px;
 }
 
 .certi-boton:hover{
@@ -293,16 +303,20 @@ text-decoration: none;
 .certi-boton:hover a{
   color: white;
   text-decoration: none;
-  
+  transition: all 0.2s ease-in-out;
 }
 
   /* Taller */
 
 .texto-taller{
-  font-size: 14px;
+  font-size: 18px;
   color: white;
   margin: 0;
   padding: 0;
+}
+
+.text-talleres{
+  font-size: 18px;
 }
 
 .icon-taller{
@@ -352,6 +366,12 @@ text-decoration: none;
   background: #122636 !important;
   border: none !important;
   color: white;
+}
+
+.centrados{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* CONTACTO */
@@ -452,12 +472,14 @@ footer{
 .footer-list a{
   color: white;
   text-decoration: none;
+
 }
 
 .footer-list a:hover{
   color: rgb(80,175,246);
   text-decoration: none;
-  cursor: ;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
 }
 
 .copyright{
